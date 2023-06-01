@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  text-decoration: none;
+  @apply text-primary;
+}
+
+html {
+  font-size: 16px;
+}
