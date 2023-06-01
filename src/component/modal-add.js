@@ -33,13 +33,13 @@ const ModalAdd = ({modal, setModal}) => {
   }
 
   const btn_modal =[
-    <div className='btn-form oranger' onClick={() => reSet()}>
+    <div key="refresh" className='btn-form oranger' onClick={() => reSet()}>
       Làm mới
     </div>,
-    <div className='btn-form clouse' onClick={() => setModal(false)}>
+    <div key="cancel" className='btn-form clouse' onClick={() => setModal(false)}>
       Hủy
     </div>,
-    <div
+    <div key="save"
       className='btn-form submit'
       onClick={form.submit}
     >
