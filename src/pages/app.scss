@@ -159,3 +159,18 @@ html {
     flex-direction: column;
     gap: 24px;
 }
+
+.bold-txt{
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }

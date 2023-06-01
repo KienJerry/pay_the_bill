@@ -53,7 +53,7 @@ const FormInput = (props) => {
       form={form}
       onFinish={handleOk}
       layout="vertical"
-      fields={generateFormFields()}
+      // fields={generateFormFields()}
       className="count-form"
     >
       <div className='form-param'>
@@ -102,7 +102,7 @@ const FormInput = (props) => {
           <div className='header-param' style={{marginBottom:"10px"}}>
             <span>Lưu ý</span>
           </div>
-            <Form.Item label="Quan trọng" name="type_ship" tooltip="Nếu trường hợp phí ship được tính chung vào voucher thì bạn tích vào đây , còn nếu phí ship riêng thì bỏ qua cái checker này" required >
+            <Form.Item label="Quan trọng" name="type_case" tooltip="Nếu bạn muốn tính theo % giá trị sản phẩm thì tích vào , nếu không muốn tính theo % giá trị sản phẩm thì bỏ qua" required >
               <Switch />
             </Form.Item>
       </div>
