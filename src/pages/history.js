@@ -43,7 +43,6 @@ const History = () => {
             <td>{value?.ship.toLocaleString()} VNĐ</td>
             <td>{dataBill?.type ? (value?.reduction_amount / value?.number).toLocaleString() : value?.reduction_amount.toLocaleString()} VNĐ</td>
             <td>{dataBill?.type ? ((value?.price - (value?.reduction_amount / value?.number)) + value?.ship).toLocaleString() : value?.pay?.toLocaleString()} VNĐ</td>
-            <td>{value?.pay?.toLocaleString()} VNĐ</td>
             </tr>
             )
         }): <div>Không có dữ liệu</div>}
